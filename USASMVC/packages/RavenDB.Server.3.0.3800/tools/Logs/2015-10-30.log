@@ -1,0 +1,1628 @@
+time,logger,level,database,message,exception
+2015-10-30 10:30:15.0666,Raven.Database.DocumentDatabase,Debug,<system>,Start loading the following database: <system>,
+2015-10-30 10:30:16.4252,Raven.Database.Impl.DocumentCacher,Info,<system>,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 3220176896
+  PollingInterval     = 00:02:00",
+2015-10-30 10:30:16.5072,Raven.Database.Storage.Esent.StorageConfigurator,Info,<system>,"Esent Settings:
+  MaxVerPages      = 16384
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2015-10-30 10:30:16.5072,Raven.Storage.Esent.TransactionalStorage,Info,<system>,"Esent Settings:
+  MaxVerPages      = 16384
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2015-10-30 10:30:18.7635,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Backup/Status' was not found,
+2015-10-30 10:30:18.9475,Raven.Database.DocumentDatabase,Debug,,Finish loading the following database: <system>,
+2015-10-30 10:30:18.9636,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Counters/Enabled' was not found,
+2015-10-30 10:30:18.9775,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Authorization/WindowsSettings' was not found,
+2015-10-30 10:30:19.0035,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2015-10-30 10:30:19.0175,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2015-10-30 10:30:48.5232,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:31:18.5256,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:31:48.5280,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:32:16.7691,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  23: GET     -   433 ms -            - 200 - http://localhost:8080/singleAuthToken,
+2015-10-30 10:32:16.8011,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  24: GET     -   423 ms -            - 200 - http://localhost:8080/studio-tasks/server-configs,
+2015-10-30 10:32:16.8111,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  25: GET     -   423 ms -            - 200 - http://localhost:8080/databases?pageSize=1024&getAdditionalData=true,
+2015-10-30 10:32:16.8111,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  26: GET     -   424 ms -            - 200 - http://localhost:8080/fs?pageSize=1024&getAdditionalData=true,
+2015-10-30 10:32:17.0810,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  29: GET     -    61 ms -            - 200 - http://localhost:8080/license/status,
+2015-10-30 10:32:17.0900,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Alerts' was not found,
+2015-10-30 10:32:17.0900,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  30: GET     -    20 ms -            - 200 - http://localhost:8080/operation/alerts,
+2015-10-30 10:32:17.2510,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/StudioConfig' was not found,
+2015-10-30 10:32:17.2570,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Alerts' was not found,
+2015-10-30 10:32:17.2929,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  33: POST    -   301 ms -            - 200 - http://localhost:8080/queries,
+2015-10-30 10:32:17.2929,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  34: POST    -   236 ms -            - 200 - http://localhost:8080/queries,
+2015-10-30 10:32:17.2929,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,	Raven/Alerts,
+2015-10-30 10:32:17.2929,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,	Raven/StudioConfig,
+2015-10-30 10:32:17.3539,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  35: GET     -    40 ms -            - 200 - http://localhost:8080/build/version,
+2015-10-30 10:32:17.4379,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  36: GET     -   156 ms -            - 200 - http://localhost:8080/debug/plugins,
+2015-10-30 10:32:17.4859,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  37: GET     -    92 ms -            - 200 - http://localhost:8080/changes/config?id=kieVH&command=watch-prefix&value=Raven%2FFileSystems%2F,
+2015-10-30 10:32:17.5079,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  38: GET     -    63 ms -            - 200 - http://localhost:8080/changes/config?id=kieVH&command=watch-prefix&value=Raven%2FCounters%2F,
+2015-10-30 10:32:17.5079,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  39: GET     -   124 ms -            - 200 - http://localhost:8080/changes/config?id=kieVH&command=watch-prefix&value=Raven%2FDatabases%2F,
+2015-10-30 10:32:17.5249,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  40: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=kieVH&command=watch-prefix&value=Raven%2FStudioConfig,
+2015-10-30 10:32:17.5499,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  41: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=kieVH&command=watch-prefix&value=Raven%2FAlerts,
+2015-10-30 10:32:17.7918,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  42: GET     -   489 ms -            - 200 - http://localhost:8080/debug/config,
+2015-10-30 10:32:17.8088,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  43: GET     -     7 ms -            - 200 - http://localhost:8080/debug/config,
+2015-10-30 10:32:17.9588,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  44: GET     -   392 ms -            - 200 - http://localhost:8080/studio-tasks/latest-server-build-version?stableOnly=true&min=3000&max=3999,
+2015-10-30 10:32:18.5206,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:32:21.2899,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"Request #  45: GET     - 3,929 ms -            - 200 - http://localhost:8080/stats",
+2015-10-30 10:32:21.2899,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  46: GET     -     1 ms -            - 200 - http://localhost:8080/stats,
+2015-10-30 10:32:38.5499,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Databases/USASMVC' was not found,
+2015-10-30 10:32:38.9768,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Databases/USASMVC' was not found,
+2015-10-30 10:32:39.0647,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'Raven/Databases/USASMVC', update: False, ",
+2015-10-30 10:32:39.1388,Raven.Database.Server.Tenancy.AbstractLandlord`1,Info,<system>,Shutting down database USASMVC because the tenant database has been updated or removed,
+2015-10-30 10:32:39.1597,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 1 because: PUT Raven/Databases/USASMVC,
+2015-10-30 10:32:39.1597,Raven.Database.DocumentDatabase,Debug,<system>,Put document Raven/Databases/USASMVC with etag 01000000-0000-0001-0000-000000000001,
+2015-10-30 10:32:39.1597,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  48: PUT     -   643 ms -            - 200 - http://localhost:8080/admin/databases/USASMVC,
+2015-10-30 10:32:39.1597,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2015-10-30 10:32:39.1597,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2015-10-30 10:32:40.2724,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'Raven/Databases/USASMVC' was found, etag: 01000000-0000-0001-0000-000000000001",
+2015-10-30 10:32:40.2724,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,"Document with key 'Raven/Databases/USASMVC' was found, etag: 01000000-0000-0001-0000-000000000001",
+2015-10-30 10:32:40.3869,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  49: GET     -   133 ms -            - 200 - http://localhost:8080/docs/Raven/Databases/USASMVC,
+2015-10-30 10:32:40.4244,Raven.Database.DocumentDatabase,Debug,USASMVC,Start loading the following database: USASMVC,
+2015-10-30 10:32:40.4434,Raven.Database.Impl.DocumentCacher,Info,USASMVC,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 3220176896
+  PollingInterval     = 00:02:00",
+2015-10-30 10:32:40.4434,Raven.Database.Storage.Esent.StorageConfigurator,Info,USASMVC,"Esent Settings:
+  MaxVerPages      = 16384
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2015-10-30 10:32:40.4434,Raven.Storage.Esent.TransactionalStorage,Info,USASMVC,"Esent Settings:
+  MaxVerPages      = 16384
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2015-10-30 10:32:41.0322,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,USASMVC,Document with key 'Raven/Backup/Status' was not found,
+2015-10-30 10:32:41.0322,Raven.Database.DocumentDatabase,Debug,,Finish loading the following database: USASMVC,
+2015-10-30 10:32:41.0322,Raven.Database.Indexing.WorkContext,Debug,USASMVC,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2015-10-30 10:32:41.0322,Raven.Database.Indexing.WorkContext,Debug,USASMVC,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2015-10-30 10:32:41.2461,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,USASMVC,Document with key 'IndexId1' was not found,
+2015-10-30 10:32:45.6659,Raven.Database.Storage.IndexDefinitionStorage,Info,USASMVC,"New index Raven/DocumentsByEntityName:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Raven_DocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_DocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+select new 
+{ 
+	Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""], 
+	LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""],
+	LastModifiedTicks = ((DateTime)doc[""""@metadata""""][""""Last-Modified""""]).Ticks 
+};"";
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			select new {
+				Tag = doc[""@metadata""][""Raven-Entity-Name""],
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				LastModifiedTicks = ((DateTime)doc[""@metadata""][""Last-Modified""]).Ticks,
+				__document_id = doc.__document_id
+			});
+		this.AddField(""Tag"");
+		this.AddField(""LastModified"");
+		this.AddField(""LastModifiedTicks"");
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""Ticks"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""Ticks"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+
+Compiled to:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Raven_DocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_DocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+select new 
+{ 
+	Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""], 
+	LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""],
+	LastModifiedTicks = ((DateTime)doc[""""@metadata""""][""""Last-Modified""""]).Ticks 
+};"";
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			select new {
+				Tag = doc[""@metadata""][""Raven-Entity-Name""],
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				LastModifiedTicks = ((DateTime)doc[""@metadata""][""Last-Modified""]).Ticks,
+				__document_id = doc.__document_id
+			});
+		this.AddField(""Tag"");
+		this.AddField(""LastModified"");
+		this.AddField(""LastModifiedTicks"");
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""Ticks"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""Ticks"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+",
+2015-10-30 10:32:45.9398,Raven.Database.Indexing.IndexStorage,Debug,USASMVC,Creating index 1 with id Raven/DocumentsByEntityName,
+2015-10-30 10:32:46.6306,Raven.Database.Indexing.Index.Indexing,Debug,USASMVC,Creating index for Raven/DocumentsByEntityName,
+2015-10-30 10:32:46.6955,Raven.Database.Indexing.WorkContext,Debug,USASMVC,Incremented work counter to 1 because: PUT INDEX Raven/DocumentsByEntityName,
+2015-10-30 10:32:46.7015,Raven.Database.Indexing.WorkContext,Debug,USASMVC,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2015-10-30 10:32:46.7375,Raven.Database.Indexing.WorkContext,Debug,USASMVC,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2015-10-30 10:32:46.7555,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,USASMVC,Document with key 'Raven/StudioConfig' was not found,
+2015-10-30 10:32:46.7555,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,USASMVC,Document with key 'Raven/StudioConfig' was not found,
+2015-10-30 10:32:46.7555,Raven.Database.Server.WebApi.RequestManager,Debug,USASMVC,Request #  51: GET     -     6 ms - USASMVC    - 404 - http://localhost:8080/databases/USASMVC/studio-tasks/config,
+2015-10-30 10:32:46.7555,Raven.Database.Server.WebApi.RequestManager,Debug,USASMVC,Request #  52: GET     -     1 ms - USASMVC    - 200 - http://localhost:8080/databases/USASMVC/singleAuthToken,
+2015-10-30 10:32:46.8285,Raven.Database.Server.WebApi.RequestManager,Debug,USASMVC,Request #  53: GET     -    78 ms - USASMVC    - 200 - http://localhost:8080/databases/USASMVC/stats,
+2015-10-30 10:32:46.8405,Raven.Database.Server.WebApi.RequestManager,Debug,USASMVC,Request #  54: GET     -     3 ms - USASMVC    - 200 - http://localhost:8080/databases/USASMVC/changes/config?id=vNPjO&command=watch-docs,
+2015-10-30 10:32:46.8405,Raven.Database.Server.WebApi.RequestManager,Debug,USASMVC,Request #  55: GET     -     1 ms - USASMVC    - 200 - http://localhost:8080/databases/USASMVC/stats,
+2015-10-30 10:32:46.8405,Raven.Database.Server.WebApi.RequestManager,Debug,USASMVC,Request #  56: GET     -     0 ms - USASMVC    - 200 - http://localhost:8080/databases/USASMVC/changes/config?id=vNPjO&command=watch-indexes,
+2015-10-30 10:32:46.8585,Raven.Database.Server.WebApi.RequestManager,Debug,USASMVC,Request #  57: GET     -    15 ms - USASMVC    - 200 - http://localhost:8080/databases/USASMVC/changes/config?id=vNPjO&command=watch-bulk-operation,
+2015-10-30 10:32:48.5270,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:33:11.0215,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:33:18.5194,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:33:41.0141,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:33:48.5119,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:34:11.0236,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:34:18.5044,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:34:41.0261,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:34:48.4969,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:35:11.0185,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:35:18.5042,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:35:41.0258,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:35:48.4966,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:36:11.0182,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:36:18.5031,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:36:41.0227,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:36:48.5075,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:37:11.0160,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:37:18.4989,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:37:41.0086,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:37:48.5035,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:38:11.0143,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:38:18.4960,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:38:41.0068,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:38:48.4886,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:39:11.0132,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:39:18.4810,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:39:41.0056,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:39:48.4738,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:40:11.0111,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:40:18.4771,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:40:41.0196,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:40:48.4695,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:41:11.0112,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:41:18.4630,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:41:41.0168,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:41:48.4676,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:42:11.0090,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:42:18.4588,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:42:38.9949,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2015-10-30 10:42:38.9949,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2015-10-30 10:42:41.0023,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:42:46.5438,Raven.Database.Indexing.WorkContext,Debug,USASMVC,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2015-10-30 10:42:46.5677,Raven.Database.Indexing.WorkContext,Debug,USASMVC,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2015-10-30 10:42:48.4512,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:43:10.9927,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:43:18.4436,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:43:40.9854,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:43:48.4482,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:44:10.9928,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:44:18.4407,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:44:41.0005,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:44:48.4334,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:45:11.0049,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:45:18.4255,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:45:40.9991,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:45:48.4299,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:46:11.0036,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:46:18.4222,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:46:40.9950,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:46:48.4149,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:47:11.0006,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:47:18.4234,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:47:40.9931,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:47:48.4300,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:48:10.9865,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,USASMVC,Performing Transactions Cleanup Sequence for db USASMVC,
+2015-10-30 10:48:18.4345,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:48:19.1833,Raven.Database.DocumentDatabase,Debug,,Start shutdown the following database: USASMVC,
+2015-10-30 10:48:19.2602,Raven.Database.Indexing.WorkContext,Debug,,Stopping background workers,
+2015-10-30 10:48:19.5251,Raven.Database.DocumentDatabase,Debug,,Finished shutdown the following database: USASMVC,
+2015-10-30 10:48:48.4270,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:49:18.4194,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:49:48.4138,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:50:18.4171,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:50:48.4097,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:51:18.4152,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:51:48.4079,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:52:18.4142,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:52:38.8246,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2015-10-30 10:52:38.8246,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2015-10-30 10:52:48.4088,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:53:18.4124,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:53:48.4049,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:54:18.3974,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:54:48.3906,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:55:18.3960,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:55:48.4024,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:56:18.4069,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:56:48.4023,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:57:18.4068,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:57:48.3994,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:58:18.4050,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:58:48.3975,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:59:18.3891,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 10:59:48.3945,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:00:18.3858,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:00:48.3774,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:01:18.3719,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:01:48.3654,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:02:18.3597,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:02:38.6560,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2015-10-30 11:02:38.6560,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2015-10-30 11:02:48.3631,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:03:18.3686,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:03:48.3611,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:04:18.3536,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:04:48.3591,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:05:18.3646,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:05:48.3702,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:06:18.3627,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:06:48.3692,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:07:18.3617,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:07:48.3541,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:08:18.3599,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:08:48.3521,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:09:18.3584,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:09:48.3511,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:10:18.3571,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:10:48.3489,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:11:18.3415,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:11:48.3479,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:12:18.3403,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:12:38.4866,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2015-10-30 11:12:38.4866,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2015-10-30 11:12:48.3447,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:13:18.3373,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:13:48.3296,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:14:18.3353,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:14:48.3277,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:15:18.3192,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:15:48.3108,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:16:09.8277,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  58: GET     -     4 ms -            - 200 - http://localhost:8080/changes/config?id=kieVH&command=unwatch-prefix&value=Raven%2FFileSystems%2F,
+2015-10-30 11:16:09.8277,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  59: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=kieVH&command=unwatch-prefix&value=Raven%2FDatabases%2F,
+2015-10-30 11:16:09.8347,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  60: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=kieVH&command=unwatch-prefix&value=Raven%2FCounters%2F,
+2015-10-30 11:16:09.8527,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  61: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=kieVH&command=unwatch-prefix&value=Raven%2FAlerts,
+2015-10-30 11:16:09.8527,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  62: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=kieVH&command=unwatch-prefix&value=Raven%2FStudioConfig,
+2015-10-30 11:16:09.8826,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  63: GET     -    21 ms -            - 200 - http://localhost:8080/changes/config?id=kieVH&command=disconnect,
+2015-10-30 11:16:18.3168,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:16:48.3090,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:17:18.3162,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:17:48.3087,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:18:18.3007,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:18:48.3097,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:19:18.3128,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:19:48.3071,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:20:18.3131,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:20:48.3206,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:21:18.3141,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:21:48.3185,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:22:18.3271,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:22:38.3173,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2015-10-30 11:22:38.3183,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2015-10-30 11:22:48.3304,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:23:18.3229,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:23:48.3154,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:24:18.3079,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:24:48.3126,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:25:18.3050,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:25:48.3117,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:26:18.3184,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:26:48.3133,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:27:18.3216,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:27:48.3241,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:28:18.3157,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:28:48.3083,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:29:18.3018,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:29:48.3066,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:30:18.3137,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:30:48.3061,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:31:18.3126,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:31:48.3189,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:32:18.3113,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:32:38.1477,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2015-10-30 11:32:38.1477,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2015-10-30 11:32:48.3161,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:33:18.3084,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:33:48.3006,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:33:54.7408,Raven.Database.DocumentDatabase,Debug,<system>,Start loading the following database: <system>,
+2015-10-30 11:33:55.6256,Raven.Database.Impl.DocumentCacher,Info,<system>,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 3220176896
+  PollingInterval     = 00:02:00",
+2015-10-30 11:33:55.7126,Raven.Database.Storage.Esent.StorageConfigurator,Info,<system>,"Esent Settings:
+  MaxVerPages      = 16384
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2015-10-30 11:33:55.7126,Raven.Storage.Esent.TransactionalStorage,Info,<system>,"Esent Settings:
+  MaxVerPages      = 16384
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2015-10-30 11:33:57.4751,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Backup/Status' was not found,
+2015-10-30 11:33:57.6211,Raven.Database.DocumentDatabase,Debug,,Finish loading the following database: <system>,
+2015-10-30 11:33:57.6600,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Counters/Enabled' was not found,
+2015-10-30 11:33:57.6720,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2015-10-30 11:33:57.6720,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2015-10-30 11:33:57.6720,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Authorization/WindowsSettings' was not found,
+2015-10-30 11:34:27.3007,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:34:57.2810,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:35:27.2920,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:35:57.2989,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:36:27.3005,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:36:57.2916,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:37:27.2852,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:37:57.2915,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:38:27.2832,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:38:57.2766,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:39:27.2831,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:39:57.2875,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:40:27.2811,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:40:57.2866,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:41:27.2791,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:41:57.2713,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:42:27.2632,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:42:57.2677,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:43:27.2601,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:43:57.2538,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:43:57.5015,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2015-10-30 11:43:57.5015,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2015-10-30 11:44:27.2582,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:44:57.2506,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:45:27.2421,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:45:57.2349,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:46:27.2452,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:46:57.2466,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:47:27.2392,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:47:57.2317,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:48:27.2240,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:48:57.2162,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:49:27.2202,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:49:57.2124,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:50:27.2049,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:50:57.1974,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:51:27.2021,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:51:57.1964,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:52:27.2048,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:52:57.1971,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:53:27.2037,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:53:57.2063,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:53:57.3312,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2015-10-30 11:53:57.3312,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2015-10-30 11:54:27.1998,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:54:57.1921,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:55:27.1977,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:55:57.1890,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:56:27.1975,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:56:57.2009,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:57:27.1923,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:57:57.1848,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:58:27.1916,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:58:57.1849,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:59:27.1924,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 11:59:57.1979,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:00:27.1893,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:00:57.1828,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:01:27.1755,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:01:57.1829,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:02:27.1873,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:02:57.1936,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:03:27.1851,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:03:57.1626,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2015-10-30 12:03:57.1626,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2015-10-30 12:03:57.1918,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:04:27.1842,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:04:57.1917,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:05:27.1991,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:05:57.2065,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:06:27.2111,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:06:57.2044,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:07:27.1970,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:07:57.2012,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:08:27.1938,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:08:57.1852,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:09:27.1778,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:09:57.1822,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:10:27.1749,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:10:57.1700,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:11:27.1746,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:11:57.1822,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:12:27.1876,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:12:57.1800,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:13:27.1873,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:13:56.9919,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2015-10-30 12:13:56.9919,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2015-10-30 12:13:57.1948,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:14:27.1994,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:14:57.1919,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:15:27.1845,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:15:57.1767,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:16:27.1817,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:16:57.1757,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:17:27.1792,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:17:57.1728,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:18:27.1793,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:18:57.1717,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:19:27.1635,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:19:57.1560,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:20:27.1603,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:20:57.1517,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:21:27.1441,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:21:57.1405,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:22:27.1441,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:22:57.1487,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:23:27.1411,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:23:56.8227,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2015-10-30 12:23:56.8227,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2015-10-30 12:23:57.1485,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:24:27.1411,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:24:57.1336,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:25:27.1390,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:25:57.1312,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:26:27.1231,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:26:57.1284,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:27:27.1217,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:27:57.1273,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:28:27.1187,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:28:57.1112,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:29:27.1037,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:29:57.0963,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:30:27.0987,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:30:57.0932,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:31:27.0991,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:31:57.0932,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:32:27.0976,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:32:57.0903,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:33:27.0940,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:33:56.6532,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2015-10-30 12:33:56.6532,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2015-10-30 12:33:57.0860,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:34:27.0805,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:34:57.0852,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:35:27.0775,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:35:57.0702,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:36:27.0746,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:36:57.0676,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:37:27.0746,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:37:57.0800,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:38:27.0723,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:38:57.0649,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:39:27.0572,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:39:57.0627,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:40:27.0573,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:40:57.0478,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:41:27.0551,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:41:57.0478,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:42:27.0522,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:42:57.0427,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:43:27.0351,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:43:56.4837,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2015-10-30 12:43:56.4837,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2015-10-30 12:43:57.0407,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:44:27.0342,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:44:57.0257,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:45:27.0180,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:45:57.0115,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:46:27.0038,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:46:57.0065,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:47:26.9989,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:47:57.0034,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:48:26.9967,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:48:57.0032,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:49:27.0096,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:49:57.0024,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:50:27.0086,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:50:57.0011,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:51:27.0097,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:51:57.0130,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:52:27.0044,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:52:56.9969,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:53:26.9895,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:53:56.3141,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2015-10-30 12:53:56.3141,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2015-10-30 12:53:56.9951,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:54:26.9875,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:54:56.9939,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:55:26.9875,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:55:56.9931,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:56:26.9885,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:56:56.9920,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:57:26.9976,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:57:56.9899,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:58:26.9824,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:58:56.9759,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:59:26.9794,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 12:59:56.9718,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:00:26.9634,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:00:56.9557,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:01:26.9482,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:01:56.9527,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:02:26.9452,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:02:56.9517,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:03:26.9592,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:03:45.6248,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'IndexId1' was not found,
+2015-10-30 13:03:46.2996,Raven.Database.Storage.IndexDefinitionStorage,Info,<system>,"New index Auto/GreekPartnerModels:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Auto_GreekPartnerModels : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Auto_GreekPartnerModels()
+	{
+		this.ViewText = @""from doc in docs.GreekPartnerModels
+select new {
+
+}"";
+		this.ForEntityNames.Add(""GreekPartnerModels"");
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			where string.Equals(doc[""@metadata""][""Raven-Entity-Name""], ""GreekPartnerModels"", System.StringComparison.InvariantCultureIgnoreCase)
+			select new {
+				__document_id = doc.__document_id
+			});
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+
+Compiled to:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Auto_GreekPartnerModels : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Auto_GreekPartnerModels()
+	{
+		this.ViewText = @""from doc in docs.GreekPartnerModels
+select new {
+
+}"";
+		this.ForEntityNames.Add(""GreekPartnerModels"");
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			where string.Equals(doc[""@metadata""][""Raven-Entity-Name""], ""GreekPartnerModels"", System.StringComparison.InvariantCultureIgnoreCase)
+			select new {
+				__document_id = doc.__document_id
+			});
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+",
+2015-10-30 13:03:46.4735,Raven.Database.Indexing.IndexStorage,Debug,<system>,Creating index 1 with id Auto/GreekPartnerModels,
+2015-10-30 13:03:46.8304,Raven.Database.Indexing.Index.Indexing,Debug,<system>,Creating index for Auto/GreekPartnerModels,
+2015-10-30 13:03:46.9424,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 1 because: PUT INDEX Auto/GreekPartnerModels,
+2015-10-30 13:03:46.9714,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2015-10-30 13:03:47.1973,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:03:47.3623,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:03:47.4063,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 00000000-0000-0000-0000-000000000000: (Raven/Databases/USASMVC),
+2015-10-30 13:03:47.4632,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:03:47.5652,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:03:47.6312,Raven.Database.Impl.DocumentRetriever,Debug,,Trigger Raven.Database.Plugins.Builtins.FilterRavenInternalDocumentsReadTrigger asked us to ignore Raven/Databases/USASMVC,
+2015-10-30 13:03:47.6312,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 13:03:47.6502,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"All documents have been filtered for Auto/GreekPartnerModels, no indexing will be performed, updating to 01000000-0000-0001-0000-000000000001, 10/30/2015 16:32:39",
+2015-10-30 13:03:47.6552,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:03:47.7691,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:03:47.8711,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:03:47.9731,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:03:48.0750,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:03:48.1790,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:03:48.2820,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:03:48.3829,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:03:48.4729,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 2 because: WORK BY IndexingExecuter,
+2015-10-30 13:03:48.4729,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 2, for: ReducingExecuter, will wait for additional work",
+2015-10-30 13:03:48.4853,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 2, for: IndexingExecuter, will wait for additional work",
+2015-10-30 13:03:48.4853,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:03:48.4853,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 5,987 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:
+",
+2015-10-30 13:03:48.5989,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"Request #   1: GET     - 6,622 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128",
+2015-10-30 13:03:48.6849,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 5,987 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:",
+2015-10-30 13:03:56.9669,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:04:26.9589,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:04:56.9639,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:05:26.9559,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:05:56.9474,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:06:26.9400,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:06:56.9314,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:07:13.4508,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:07:13.4508,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 91 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:
+",
+2015-10-30 13:07:13.4508,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   2: GET     -   103 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 13:07:13.4508,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 91 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:",
+2015-10-30 13:07:26.9269,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:07:56.9294,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:08:26.9219,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:08:56.9284,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:09:26.9210,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:09:56.9305,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:10:26.9339,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:10:56.9262,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:11:26.9308,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:11:56.9232,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:12:26.9148,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:12:56.9072,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:13:26.8996,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:13:48.3037,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 2, for: ReducingExecuter, will wait for additional work",
+2015-10-30 13:13:48.3156,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 2, for: IndexingExecuter, will wait for additional work",
+2015-10-30 13:13:56.9053,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:14:26.8977,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:14:56.8901,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:15:26.8826,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:15:56.8870,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:16:26.8796,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:16:56.8842,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:17:26.8764,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:17:56.8691,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:18:26.8615,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:18:56.8678,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:19:26.8723,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:19:56.8649,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:20:26.8573,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:20:56.8487,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:21:26.8409,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:21:56.8456,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:22:26.8399,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:22:56.8472,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:23:26.8508,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:23:48.1338,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 2, for: ReducingExecuter, will wait for additional work",
+2015-10-30 13:23:48.1458,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 2, for: IndexingExecuter, will wait for additional work",
+2015-10-30 13:23:56.8434,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:24:26.8349,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:24:56.8272,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:25:26.8198,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:25:56.8264,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:26:26.8188,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:26:56.8115,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:27:19.2500,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:27:19.2500,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 15 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:
+",
+2015-10-30 13:27:19.2500,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   3: GET     -    16 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 13:27:19.2500,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 15 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:",
+2015-10-30 13:27:26.8152,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:27:35.8603,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 10 ms
+",
+2015-10-30 13:27:35.8603,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   4: GET     -    11 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 13:27:35.8603,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 10 ms",
+2015-10-30 13:27:56.8073,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:28:26.7998,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:28:56.7923,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:29:00.9551,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:29:00.9551,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:
+",
+2015-10-30 13:29:00.9551,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   5: GET     -     3 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 13:29:00.9551,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:",
+2015-10-30 13:29:26.7958,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:29:56.7872,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:30:26.7795,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:30:56.7720,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:31:13.8801,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:31:13.8801,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:
+",
+2015-10-30 13:31:13.8801,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   6: GET     -     3 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 13:31:13.8971,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:",
+2015-10-30 13:31:26.7794,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:31:56.7870,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:32:26.7795,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:32:56.7867,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:33:26.7945,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:33:47.9645,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 2, for: ReducingExecuter, will wait for additional work",
+2015-10-30 13:33:47.9755,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 2, for: IndexingExecuter, will wait for additional work",
+2015-10-30 13:33:56.8010,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:34:26.7958,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:34:48.2754,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:34:48.2754,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:
+",
+2015-10-30 13:34:48.2754,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   7: GET     -     3 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 13:34:48.2754,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:",
+2015-10-30 13:34:56.8015,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:35:05.2656,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 1 ms
+",
+2015-10-30 13:35:05.2656,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   8: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 13:35:05.2656,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 1 ms",
+2015-10-30 13:35:22.0678,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 0 ms
+",
+2015-10-30 13:35:22.0678,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #   9: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 13:35:22.0698,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 0 ms",
+2015-10-30 13:35:26.8035,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:35:56.8100,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:36:13.1623,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:36:13.1623,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:
+",
+2015-10-30 13:36:13.1623,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  10: GET     -     3 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 13:36:13.1623,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:",
+2015-10-30 13:36:26.8031,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:36:56.7940,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:37:26.8003,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:37:56.7929,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:38:26.7853,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:38:56.7901,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:39:12.7912,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 2 ms
+",
+2015-10-30 13:39:12.7912,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  11: GET     -     4 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 13:39:12.7912,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 2 ms",
+2015-10-30 13:39:26.7877,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:39:56.7907,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:40:26.7983,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:40:56.7937,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:41:26.7972,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:41:56.8018,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:42:26.7945,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:42:56.7863,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:43:26.7923,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:43:47.7935,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 2, for: ReducingExecuter, will wait for additional work",
+2015-10-30 13:43:47.8014,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 2, for: IndexingExecuter, will wait for additional work",
+2015-10-30 13:43:56.7849,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:44:26.7914,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:44:56.7968,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:45:26.7883,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:45:56.7809,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:46:26.7735,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:46:56.7650,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:47:26.7574,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:47:56.7639,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:48:26.7564,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:48:56.7609,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:49:26.7694,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:49:56.7616,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:50:26.7661,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:50:56.7587,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:51:26.7641,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:51:56.7737,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:52:26.7783,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:52:56.7709,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:53:26.7632,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:53:47.6243,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 2, for: ReducingExecuter, will wait for additional work",
+2015-10-30 13:53:47.6373,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 2, for: IndexingExecuter, will wait for additional work",
+2015-10-30 13:53:56.7570,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:54:26.7602,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:54:56.7630,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:55:26.7596,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:55:56.7671,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:56:26.7591,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:56:56.7676,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:57:26.7741,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:57:56.7665,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:58:26.7710,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:58:56.7635,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:59:26.7613,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 13:59:30.0399,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 13:59:30.0399,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 15 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:
+",
+2015-10-30 13:59:30.0399,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  12: GET     -    15 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 13:59:30.0399,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 15 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 0 total.
+	Timing:",
+2015-10-30 13:59:56.7634,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:00:26.7608,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:00:34.1587,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/Hilo/GreekPartnerModels' was not found,
+2015-10-30 14:00:34.1587,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/ServerPrefixForHilo' was not found,
+2015-10-30 14:00:34.1736,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  13: GET     -    42 ms -            - 200 - http://localhost:8080/queries/?&id=Raven%2FHilo%2FGreekPartnerModels&id=Raven%2FServerPrefixForHilo,
+2015-10-30 14:00:34.4466,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'Raven/Hilo/GreekPartnerModels', update: False, ",
+2015-10-30 14:00:34.4976,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 3 because: PUT Raven/Hilo/GreekPartnerModels,
+2015-10-30 14:00:34.4976,Raven.Database.DocumentDatabase,Debug,<system>,Put document Raven/Hilo/GreekPartnerModels with etag 01000000-0000-0002-0000-000000000001,
+2015-10-30 14:00:34.4976,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:00:34.5006,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-000000000001: (Raven/Hilo/GreekPartnerModels),
+2015-10-30 14:00:34.5006,Raven.Database.Impl.DocumentRetriever,Debug,,Trigger Raven.Database.Plugins.Builtins.FilterRavenInternalDocumentsReadTrigger asked us to ignore Raven/Hilo/GreekPartnerModels,
+2015-10-30 14:00:34.5006,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 14:00:34.5006,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"All documents have been filtered for Auto/GreekPartnerModels, no indexing will be performed, updating to 01000000-0000-0002-0000-000000000001, 10/30/2015 20:00:34",
+2015-10-30 14:00:34.5006,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  14: PUT     -   188 ms -            - 201 - http://localhost:8080/docs/Raven/Hilo/GreekPartnerModels,
+2015-10-30 14:00:34.5006,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 4 because: WORK BY IndexingExecuter,
+2015-10-30 14:00:34.5006,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 4, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:00:34.5006,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 4, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:00:38.7724,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	PUT GreekPartnerModels/1
+",
+2015-10-30 14:00:38.7853,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'GreekPartnerModels/1', update: False, ",
+2015-10-30 14:00:38.7853,Raven.Database.DocumentDatabase,Debug,<system>,Put document GreekPartnerModels/1 with etag 01000000-0000-0002-0000-000000000002,
+2015-10-30 14:00:38.7853,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 5 because: PUT GreekPartnerModels/1,
+2015-10-30 14:00:38.7964,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  15: POST    -    62 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:00:38.7964,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0002-0000-000000000001: (GreekPartnerModels/1),
+2015-10-30 14:00:38.7964,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 5, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:00:38.7964,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 14:00:38.8103,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"Going to index 1 documents in IndexId: 1, LastIndexedEtag: 01000000-0000-0002-0000-000000000001: (GreekPartnerModels/1)",
+2015-10-30 14:00:38.8283,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Indexing 1 documents for index: Auto/GreekPartnerModels. (GreekPartnerModels/1),
+2015-10-30 14:00:39.5522,Raven.Database.Indexing.Index.Indexing,Debug,<system>,"Indexing on GreekPartnerModels/1 result in index Auto/GreekPartnerModels gave document: 	__document_id IS: greekpartnermodels/1
+",
+2015-10-30 14:00:39.7691,Raven.Database.Indexing.Index.Indexing,Debug,<system>,Indexed 1 documents for Auto/GreekPartnerModels,
+2015-10-30 14:00:39.7691,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After indexing 1 documents, the new last etag for is: 01000000-0000-0002-0000-000000000002 for Auto/GreekPartnerModels",
+2015-10-30 14:00:39.7881,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 6 because: WORK BY IndexingExecuter,
+2015-10-30 14:00:39.7881,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 6, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:00:39.8131,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 6, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:00:56.7604,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:01:12.3939,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	PUT GreekPartnerModels/2
+",
+2015-10-30 14:01:12.3949,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'GreekPartnerModels/2', update: False, ",
+2015-10-30 14:01:12.3949,Raven.Database.DocumentDatabase,Debug,<system>,Put document GreekPartnerModels/2 with etag 01000000-0000-0002-0000-000000000003,
+2015-10-30 14:01:12.3949,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 7 because: PUT GreekPartnerModels/2,
+2015-10-30 14:01:12.3949,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 7, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:01:12.3949,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0002-0000-000000000002: (GreekPartnerModels/2),
+2015-10-30 14:01:12.3949,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 14:01:12.3949,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"Going to index 1 documents in IndexId: 1, LastIndexedEtag: 01000000-0000-0002-0000-000000000002: (GreekPartnerModels/2)",
+2015-10-30 14:01:12.3949,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Indexing 1 documents for index: Auto/GreekPartnerModels. (GreekPartnerModels/2),
+2015-10-30 14:01:12.3949,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  16: POST    -     3 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:01:12.3949,Raven.Database.Indexing.Index.Indexing,Debug,<system>,"Indexing on GreekPartnerModels/2 result in index Auto/GreekPartnerModels gave document: 	__document_id IS: greekpartnermodels/2
+",
+2015-10-30 14:01:12.4149,Raven.Database.Indexing.Index.Indexing,Debug,<system>,Indexed 1 documents for Auto/GreekPartnerModels,
+2015-10-30 14:01:12.4149,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After indexing 1 documents, the new last etag for is: 01000000-0000-0002-0000-000000000003 for Auto/GreekPartnerModels",
+2015-10-30 14:01:12.4149,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 8 because: WORK BY IndexingExecuter,
+2015-10-30 14:01:12.4149,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 8, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:01:12.4149,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 8, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:01:26.7668,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:01:53.2314,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	PUT GreekPartnerModels/3
+",
+2015-10-30 14:01:53.2314,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'GreekPartnerModels/3', update: False, ",
+2015-10-30 14:01:53.2314,Raven.Database.DocumentDatabase,Debug,<system>,Put document GreekPartnerModels/3 with etag 01000000-0000-0002-0000-000000000004,
+2015-10-30 14:01:53.2314,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 9 because: PUT GreekPartnerModels/3,
+2015-10-30 14:01:53.2314,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 9, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:01:53.2314,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  17: POST    -     6 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:01:53.2314,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0002-0000-000000000003: (GreekPartnerModels/3),
+2015-10-30 14:01:53.2314,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 14:01:53.2314,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"Going to index 1 documents in IndexId: 1, LastIndexedEtag: 01000000-0000-0002-0000-000000000003: (GreekPartnerModels/3)",
+2015-10-30 14:01:53.2314,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Indexing 1 documents for index: Auto/GreekPartnerModels. (GreekPartnerModels/3),
+2015-10-30 14:01:53.2314,Raven.Database.Indexing.Index.Indexing,Debug,<system>,"Indexing on GreekPartnerModels/3 result in index Auto/GreekPartnerModels gave document: 	__document_id IS: greekpartnermodels/3
+",
+2015-10-30 14:01:53.2974,Raven.Database.Indexing.Index.Indexing,Debug,<system>,Indexed 1 documents for Auto/GreekPartnerModels,
+2015-10-30 14:01:53.2974,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After indexing 1 documents, the new last etag for is: 01000000-0000-0002-0000-000000000004 for Auto/GreekPartnerModels",
+2015-10-30 14:01:53.2974,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 10 because: WORK BY IndexingExecuter,
+2015-10-30 14:01:53.2974,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 10, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:01:53.2974,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 10, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:01:56.7584,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:02:11.3613,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	PUT GreekPartnerModels/4
+",
+2015-10-30 14:02:11.3623,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'GreekPartnerModels/4', update: False, ",
+2015-10-30 14:02:11.3623,Raven.Database.DocumentDatabase,Debug,<system>,Put document GreekPartnerModels/4 with etag 01000000-0000-0002-0000-000000000005,
+2015-10-30 14:02:11.3623,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 11 because: PUT GreekPartnerModels/4,
+2015-10-30 14:02:11.3623,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 11, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:02:11.3623,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0002-0000-000000000004: (GreekPartnerModels/4),
+2015-10-30 14:02:11.3623,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 14:02:11.3623,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"Going to index 1 documents in IndexId: 1, LastIndexedEtag: 01000000-0000-0002-0000-000000000004: (GreekPartnerModels/4)",
+2015-10-30 14:02:11.3623,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Indexing 1 documents for index: Auto/GreekPartnerModels. (GreekPartnerModels/4),
+2015-10-30 14:02:11.3623,Raven.Database.Indexing.Index.Indexing,Debug,<system>,"Indexing on GreekPartnerModels/4 result in index Auto/GreekPartnerModels gave document: 	__document_id IS: greekpartnermodels/4
+",
+2015-10-30 14:02:11.3623,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  18: POST    -     1 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:02:11.4063,Raven.Database.Indexing.Index.Indexing,Debug,<system>,Indexed 1 documents for Auto/GreekPartnerModels,
+2015-10-30 14:02:11.4063,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After indexing 1 documents, the new last etag for is: 01000000-0000-0002-0000-000000000005 for Auto/GreekPartnerModels",
+2015-10-30 14:02:11.4063,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 12 because: WORK BY IndexingExecuter,
+2015-10-30 14:02:11.4063,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 12, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:02:11.4143,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 12, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:02:26.7650,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:02:56.7715,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:03:26.7809,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:03:56.7856,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:04:26.7797,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:04:56.7842,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:05:26.7767,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:05:56.7702,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:06:26.7748,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:06:39.5531,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 14:06:39.5531,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 26 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 4 total.
+	Timing:
+",
+2015-10-30 14:06:39.5531,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  19: GET     -    27 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:06:39.5531,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 26 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 4 total.
+	Timing:",
+2015-10-30 14:06:39.7771,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 14:06:39.8101,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'greekpartnermodels/1' was found, etag: 01000000-0000-0002-0000-000000000002",
+2015-10-30 14:06:39.8661,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'greekpartnermodels/2' was found, etag: 01000000-0000-0002-0000-000000000003",
+2015-10-30 14:06:39.8661,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'greekpartnermodels/3' was found, etag: 01000000-0000-0002-0000-000000000004",
+2015-10-30 14:06:39.8661,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'greekpartnermodels/4' was found, etag: 01000000-0000-0002-0000-000000000005",
+2015-10-30 14:06:39.8661,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 92 ms
+	Index: Auto/GreekPartnerModels
+	Results: 4 returned out of 4 total.
+	Timing:
+",
+2015-10-30 14:06:39.8661,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  20: GET     -    96 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:06:39.8661,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 92 ms
+	Index: Auto/GreekPartnerModels
+	Results: 4 returned out of 4 total.
+	Timing:",
+2015-10-30 14:06:56.7665,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:07:02.5708,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'GreekPartnerModels/4' was found, etag: 01000000-0000-0002-0000-000000000005",
+2015-10-30 14:07:02.5907,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  21: GET     -    59 ms -            - 200 - http://localhost:8080/docs?id=GreekPartnerModels%2F4,
+2015-10-30 14:07:11.4092,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	DELETE GreekPartnerModels/4
+",
+2015-10-30 14:07:11.4092,Raven.Database.DocumentDatabase,Debug,<system>,Delete a document with key: GreekPartnerModels/4 and etag ,
+2015-10-30 14:07:11.4371,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'GreekPartnerModels/4' was found, etag: 01000000-0000-0002-0000-000000000005",
+2015-10-30 14:07:11.4371,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'GreekPartnerModels/4' was deleted,
+2015-10-30 14:07:11.4821,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 13 because: DEL GreekPartnerModels/4,
+2015-10-30 14:07:11.4821,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 13, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:07:11.4821,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  22: POST    -    74 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:07:11.5281,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,,"Executing task: Index: 1, Keys: GreekPartnerModels/4",
+2015-10-30 14:07:11.5281,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'GreekPartnerModels/4' was not found,
+2015-10-30 14:07:11.5281,Raven.Database.Indexing.Index.Indexing,Debug,,Deleting (GreekPartnerModels/4) from Auto/GreekPartnerModels,
+2015-10-30 14:07:11.5461,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 14 because: WORK BY IndexingExecuter,
+2015-10-30 14:07:11.5461,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 14, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:07:11.5461,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 14, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:07:23.6286,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'GreekPartnerModels/3' was found, etag: 01000000-0000-0002-0000-000000000004",
+2015-10-30 14:07:23.6286,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  23: GET     -     0 ms -            - 200 - http://localhost:8080/docs?id=GreekPartnerModels%2F3,
+2015-10-30 14:07:23.6426,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	DELETE GreekPartnerModels/3
+",
+2015-10-30 14:07:23.6426,Raven.Database.DocumentDatabase,Debug,<system>,Delete a document with key: GreekPartnerModels/3 and etag ,
+2015-10-30 14:07:23.6426,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'GreekPartnerModels/3' was found, etag: 01000000-0000-0002-0000-000000000004",
+2015-10-30 14:07:23.6426,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'GreekPartnerModels/3' was deleted,
+2015-10-30 14:07:23.6486,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 15 because: DEL GreekPartnerModels/3,
+2015-10-30 14:07:23.6486,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  24: POST    -     3 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:07:23.6656,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 15, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:07:23.6656,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,,"Executing task: Index: 1, Keys: GreekPartnerModels/3",
+2015-10-30 14:07:23.6656,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'GreekPartnerModels/3' was not found,
+2015-10-30 14:07:23.6656,Raven.Database.Indexing.Index.Indexing,Debug,,Deleting (GreekPartnerModels/3) from Auto/GreekPartnerModels,
+2015-10-30 14:07:23.6656,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 16 because: WORK BY IndexingExecuter,
+2015-10-30 14:07:23.6656,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 16, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:07:23.6656,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 16, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:07:26.7598,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:07:36.0561,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'GreekPartnerModels/2' was found, etag: 01000000-0000-0002-0000-000000000003",
+2015-10-30 14:07:36.0561,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  25: GET     -     1 ms -            - 200 - http://localhost:8080/docs?id=GreekPartnerModels%2F2,
+2015-10-30 14:07:36.0691,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	DELETE GreekPartnerModels/2
+",
+2015-10-30 14:07:36.0691,Raven.Database.DocumentDatabase,Debug,<system>,Delete a document with key: GreekPartnerModels/2 and etag ,
+2015-10-30 14:07:36.0691,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'GreekPartnerModels/2' was found, etag: 01000000-0000-0002-0000-000000000003",
+2015-10-30 14:07:36.0691,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'GreekPartnerModels/2' was deleted,
+2015-10-30 14:07:36.0691,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 17 because: DEL GreekPartnerModels/2,
+2015-10-30 14:07:36.0691,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,,"Executing task: Index: 1, Keys: GreekPartnerModels/2",
+2015-10-30 14:07:36.0691,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 17, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:07:36.0691,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'GreekPartnerModels/2' was not found,
+2015-10-30 14:07:36.0691,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  26: POST    -     3 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:07:36.0691,Raven.Database.Indexing.Index.Indexing,Debug,,Deleting (GreekPartnerModels/2) from Auto/GreekPartnerModels,
+2015-10-30 14:07:36.0691,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 18 because: WORK BY IndexingExecuter,
+2015-10-30 14:07:36.0691,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 18, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:07:36.0860,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 18, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:07:40.5758,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'GreekPartnerModels/1' was found, etag: 01000000-0000-0002-0000-000000000002",
+2015-10-30 14:07:40.5758,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  27: GET     -     1 ms -            - 200 - http://localhost:8080/docs?id=GreekPartnerModels%2F1,
+2015-10-30 14:07:40.5858,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	DELETE GreekPartnerModels/1
+",
+2015-10-30 14:07:40.5858,Raven.Database.DocumentDatabase,Debug,<system>,Delete a document with key: GreekPartnerModels/1 and etag ,
+2015-10-30 14:07:40.5858,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'GreekPartnerModels/1' was found, etag: 01000000-0000-0002-0000-000000000002",
+2015-10-30 14:07:40.5858,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'GreekPartnerModels/1' was deleted,
+2015-10-30 14:07:40.5858,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 19 because: DEL GreekPartnerModels/1,
+2015-10-30 14:07:40.5858,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,,"Executing task: Index: 1, Keys: GreekPartnerModels/1",
+2015-10-30 14:07:40.5858,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 19, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:07:40.5858,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'GreekPartnerModels/1' was not found,
+2015-10-30 14:07:40.5858,Raven.Database.Indexing.Index.Indexing,Debug,,Deleting (GreekPartnerModels/1) from Auto/GreekPartnerModels,
+2015-10-30 14:07:40.5858,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  28: POST    -     4 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:07:40.5969,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 20 because: WORK BY IndexingExecuter,
+2015-10-30 14:07:40.5969,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 20, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:07:40.5969,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 20, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:07:56.7521,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:08:15.5698,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'Raven/Hilo/GreekPartnerModels' was found, etag: 01000000-0000-0002-0000-000000000001",
+2015-10-30 14:08:15.5698,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/ServerPrefixForHilo' was not found,
+2015-10-30 14:08:15.5719,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  29: GET     -     2 ms -            - 200 - http://localhost:8080/queries/?&id=Raven%2FHilo%2FGreekPartnerModels&id=Raven%2FServerPrefixForHilo,
+2015-10-30 14:08:15.6038,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'Raven/Hilo/GreekPartnerModels', update: True, ",
+2015-10-30 14:08:15.6038,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 21 because: PUT Raven/Hilo/GreekPartnerModels,
+2015-10-30 14:08:15.6038,Raven.Database.DocumentDatabase,Debug,<system>,Put document Raven/Hilo/GreekPartnerModels with etag 01000000-0000-0002-0000-000000000006,
+2015-10-30 14:08:15.6038,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 21, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:08:15.6038,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0002-0000-000000000005: (Raven/Hilo/GreekPartnerModels),
+2015-10-30 14:08:15.6038,Raven.Database.Impl.DocumentRetriever,Debug,,Trigger Raven.Database.Plugins.Builtins.FilterRavenInternalDocumentsReadTrigger asked us to ignore Raven/Hilo/GreekPartnerModels,
+2015-10-30 14:08:15.6038,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 14:08:15.6038,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"All documents have been filtered for Auto/GreekPartnerModels, no indexing will be performed, updating to 01000000-0000-0002-0000-000000000006, 10/30/2015 20:08:15",
+2015-10-30 14:08:15.6038,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  30: PUT     -     4 ms -            - 201 - http://localhost:8080/docs/Raven/Hilo/GreekPartnerModels,
+2015-10-30 14:08:15.6038,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 22 because: WORK BY IndexingExecuter,
+2015-10-30 14:08:15.6038,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 22, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:08:15.6038,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 22, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:08:16.9564,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	PUT GreekPartnerModels/33
+",
+2015-10-30 14:08:16.9564,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'GreekPartnerModels/33', update: False, ",
+2015-10-30 14:08:16.9564,Raven.Database.DocumentDatabase,Debug,<system>,Put document GreekPartnerModels/33 with etag 01000000-0000-0002-0000-000000000007,
+2015-10-30 14:08:16.9564,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 23 because: PUT GreekPartnerModels/33,
+2015-10-30 14:08:16.9564,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0002-0000-000000000006: (GreekPartnerModels/33),
+2015-10-30 14:08:16.9564,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 23, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:08:16.9564,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 14:08:16.9614,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"Going to index 1 documents in IndexId: 1, LastIndexedEtag: 01000000-0000-0002-0000-000000000006: (GreekPartnerModels/33)",
+2015-10-30 14:08:16.9614,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Indexing 1 documents for index: Auto/GreekPartnerModels. (GreekPartnerModels/33),
+2015-10-30 14:08:16.9614,Raven.Database.Indexing.Index.Indexing,Debug,<system>,"Indexing on GreekPartnerModels/33 result in index Auto/GreekPartnerModels gave document: 	__document_id IS: greekpartnermodels/33
+",
+2015-10-30 14:08:16.9564,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  31: POST    -     3 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:08:16.9785,Raven.Database.Indexing.Index.Indexing,Debug,<system>,Indexed 1 documents for Auto/GreekPartnerModels,
+2015-10-30 14:08:16.9785,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After indexing 1 documents, the new last etag for is: 01000000-0000-0002-0000-000000000007 for Auto/GreekPartnerModels",
+2015-10-30 14:08:16.9785,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 24 because: WORK BY IndexingExecuter,
+2015-10-30 14:08:16.9785,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 24, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:08:16.9785,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 24, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:08:26.7587,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:08:56.7632,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:08:57.9778,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	PUT GreekPartnerModels/34
+",
+2015-10-30 14:08:57.9778,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'GreekPartnerModels/34', update: False, ",
+2015-10-30 14:08:57.9778,Raven.Database.DocumentDatabase,Debug,<system>,Put document GreekPartnerModels/34 with etag 01000000-0000-0002-0000-000000000008,
+2015-10-30 14:08:57.9778,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 25 because: PUT GreekPartnerModels/34,
+2015-10-30 14:08:57.9778,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 25, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:08:57.9778,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0002-0000-000000000007: (GreekPartnerModels/34),
+2015-10-30 14:08:57.9778,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 14:08:57.9778,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"Going to index 1 documents in IndexId: 1, LastIndexedEtag: 01000000-0000-0002-0000-000000000007: (GreekPartnerModels/34)",
+2015-10-30 14:08:57.9778,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Indexing 1 documents for index: Auto/GreekPartnerModels. (GreekPartnerModels/34),
+2015-10-30 14:08:57.9778,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  32: POST    -     1 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:08:57.9818,Raven.Database.Indexing.Index.Indexing,Debug,<system>,"Indexing on GreekPartnerModels/34 result in index Auto/GreekPartnerModels gave document: 	__document_id IS: greekpartnermodels/34
+",
+2015-10-30 14:08:57.9968,Raven.Database.Indexing.Index.Indexing,Debug,<system>,Indexed 1 documents for Auto/GreekPartnerModels,
+2015-10-30 14:08:57.9968,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After indexing 1 documents, the new last etag for is: 01000000-0000-0002-0000-000000000008 for Auto/GreekPartnerModels",
+2015-10-30 14:08:57.9968,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 26 because: WORK BY IndexingExecuter,
+2015-10-30 14:08:57.9968,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 26, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:08:57.9968,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 26, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:09:26.7556,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:09:47.9484,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	PUT GreekPartnerModels/34
+",
+2015-10-30 14:09:47.9484,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'GreekPartnerModels/34', update: True, ",
+2015-10-30 14:09:47.9484,Raven.Database.DocumentDatabase,Debug,<system>,Put document GreekPartnerModels/34 with etag 01000000-0000-0002-0000-000000000009,
+2015-10-30 14:09:47.9484,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 27 because: PUT GreekPartnerModels/34,
+2015-10-30 14:09:47.9514,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 27, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:09:47.9514,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0002-0000-000000000008: (GreekPartnerModels/34),
+2015-10-30 14:09:47.9514,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  33: POST    -     2 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:09:47.9514,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 14:09:47.9514,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"Going to index 1 documents in IndexId: 1, LastIndexedEtag: 01000000-0000-0002-0000-000000000008: (GreekPartnerModels/34)",
+2015-10-30 14:09:47.9514,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Indexing 1 documents for index: Auto/GreekPartnerModels. (GreekPartnerModels/34),
+2015-10-30 14:09:47.9514,Raven.Database.Indexing.Index.Indexing,Debug,<system>,"Indexing on GreekPartnerModels/34 result in index Auto/GreekPartnerModels gave document: 	__document_id IS: greekpartnermodels/34
+",
+2015-10-30 14:09:47.9784,Raven.Database.Indexing.Index.Indexing,Debug,<system>,Indexed 1 documents for Auto/GreekPartnerModels,
+2015-10-30 14:09:47.9784,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After indexing 1 documents, the new last etag for is: 01000000-0000-0002-0000-000000000009 for Auto/GreekPartnerModels",
+2015-10-30 14:09:47.9784,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 28 because: WORK BY IndexingExecuter,
+2015-10-30 14:09:47.9784,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 28, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:09:47.9834,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 28, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:09:56.7481,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:10:04.8377,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'GreekPartnerModels/33' was found, etag: 01000000-0000-0002-0000-000000000007",
+2015-10-30 14:10:04.8377,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  34: GET     -     2 ms -            - 200 - http://localhost:8080/docs?id=GreekPartnerModels%2F33,
+2015-10-30 14:10:04.8377,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	DELETE GreekPartnerModels/33
+",
+2015-10-30 14:10:04.8377,Raven.Database.DocumentDatabase,Debug,<system>,Delete a document with key: GreekPartnerModels/33 and etag ,
+2015-10-30 14:10:04.8377,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'GreekPartnerModels/33' was found, etag: 01000000-0000-0002-0000-000000000007",
+2015-10-30 14:10:04.8377,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'GreekPartnerModels/33' was deleted,
+2015-10-30 14:10:04.8377,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 29 because: DEL GreekPartnerModels/33,
+2015-10-30 14:10:04.8377,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 29, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:10:04.8377,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,,"Executing task: Index: 1, Keys: GreekPartnerModels/33",
+2015-10-30 14:10:04.8377,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'GreekPartnerModels/33' was not found,
+2015-10-30 14:10:04.8377,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  35: POST    -     1 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:10:04.8377,Raven.Database.Indexing.Index.Indexing,Debug,,Deleting (GreekPartnerModels/33) from Auto/GreekPartnerModels,
+2015-10-30 14:10:04.8546,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 30 because: WORK BY IndexingExecuter,
+2015-10-30 14:10:04.8546,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 30, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:10:04.8546,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 30, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:10:26.7532,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:10:29.6743,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 14:10:29.6743,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 1 total.
+	Timing:
+",
+2015-10-30 14:10:29.6743,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  36: GET     -     4 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:10:29.6978,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 1 total.
+	Timing:",
+2015-10-30 14:10:29.7155,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 14:10:29.7155,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'greekpartnermodels/34' was found, etag: 01000000-0000-0002-0000-000000000009",
+2015-10-30 14:10:29.7155,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 1 ms
+	Index: Auto/GreekPartnerModels
+	Results: 1 returned out of 1 total.
+	Timing:
+",
+2015-10-30 14:10:29.7155,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  37: GET     -     1 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:10:29.7155,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 1 ms
+	Index: Auto/GreekPartnerModels
+	Results: 1 returned out of 1 total.
+	Timing:",
+2015-10-30 14:10:40.1476,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 1 ms
+",
+2015-10-30 14:10:40.1476,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  38: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:10:40.1476,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 1 ms",
+2015-10-30 14:10:40.1556,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 0 ms
+",
+2015-10-30 14:10:40.1556,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  39: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:10:40.1556,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 0 ms",
+2015-10-30 14:10:56.7609,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:11:26.7586,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:11:56.7622,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:12:26.7667,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:12:56.7741,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:13:26.7805,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:13:56.7729,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:14:26.7655,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:14:56.7706,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:15:26.7622,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:15:56.7548,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:16:26.7473,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:16:56.7547,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:17:26.7585,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:17:56.7505,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:18:26.7422,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:18:56.7347,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:19:26.7273,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:19:56.7196,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:20:04.6914,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 30, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:20:04.6914,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 30, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:20:26.7242,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:20:29.8523,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	PUT GreekPartnerModels/34
+",
+2015-10-30 14:20:29.8523,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'GreekPartnerModels/34', update: True, ",
+2015-10-30 14:20:29.8523,Raven.Database.DocumentDatabase,Debug,<system>,Put document GreekPartnerModels/34 with etag 01000000-0000-0002-0000-00000000000A,
+2015-10-30 14:20:29.8523,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 31 because: PUT GreekPartnerModels/34,
+2015-10-30 14:20:29.8523,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 31, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:20:29.8523,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0002-0000-000000000009: (GreekPartnerModels/34),
+2015-10-30 14:20:29.8523,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 14:20:29.8523,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"Going to index 1 documents in IndexId: 1, LastIndexedEtag: 01000000-0000-0002-0000-000000000009: (GreekPartnerModels/34)",
+2015-10-30 14:20:29.8523,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  40: POST    -     2 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:20:29.8523,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Indexing 1 documents for index: Auto/GreekPartnerModels. (GreekPartnerModels/34),
+2015-10-30 14:20:29.8523,Raven.Database.Indexing.Index.Indexing,Debug,<system>,"Indexing on GreekPartnerModels/34 result in index Auto/GreekPartnerModels gave document: 	__document_id IS: greekpartnermodels/34
+",
+2015-10-30 14:20:29.8693,Raven.Database.Indexing.Index.Indexing,Debug,<system>,Indexed 1 documents for Auto/GreekPartnerModels,
+2015-10-30 14:20:29.8693,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After indexing 1 documents, the new last etag for is: 01000000-0000-0002-0000-00000000000A for Auto/GreekPartnerModels",
+2015-10-30 14:20:29.8833,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 32 because: WORK BY IndexingExecuter,
+2015-10-30 14:20:29.8833,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 32, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:20:29.8833,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 32, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:20:56.7158,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:21:26.7221,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:21:56.7179,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:22:26.7204,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:22:56.7126,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:23:10.6986,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 14:23:10.6986,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 1 total.
+	Timing:
+",
+2015-10-30 14:23:10.6986,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  41: GET     -     3 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:23:10.6986,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 1 total.
+	Timing:",
+2015-10-30 14:23:10.7176,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 14:23:10.7176,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'greekpartnermodels/34' was found, etag: 01000000-0000-0002-0000-00000000000A",
+2015-10-30 14:23:10.7176,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 1 returned out of 1 total.
+	Timing:
+",
+2015-10-30 14:23:10.7176,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  42: GET     -     3 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:23:10.7176,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 2 ms
+	Index: Auto/GreekPartnerModels
+	Results: 1 returned out of 1 total.
+	Timing:",
+2015-10-30 14:23:26.7051,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:23:56.7126,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:24:26.7180,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:24:55.4430,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 0 ms
+",
+2015-10-30 14:24:55.4430,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  43: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:24:55.4449,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 0 ms",
+2015-10-30 14:24:55.4449,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 1 ms
+",
+2015-10-30 14:24:55.4449,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  44: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:24:55.4449,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 1 ms",
+2015-10-30 14:24:56.7115,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:25:26.7031,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:25:56.6977,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:26:26.7010,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:26:56.6934,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:27:26.6858,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:27:56.6893,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:28:26.6838,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:28:29.9878,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 0 ms
+",
+2015-10-30 14:28:29.9878,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  45: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:28:29.9878,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 0 ms",
+2015-10-30 14:28:30.1418,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 0 ms
+",
+2015-10-30 14:28:30.1418,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  46: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:28:30.1418,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 0 ms",
+2015-10-30 14:28:56.6883,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:29:26.6807,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:29:51.4167,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 0 ms
+",
+2015-10-30 14:29:51.4167,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  47: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:29:51.4167,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 0 ms",
+2015-10-30 14:29:51.4367,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 0 ms
+",
+2015-10-30 14:29:51.4367,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  48: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:29:51.4387,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 0 ms",
+2015-10-30 14:29:56.6862,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:30:26.7006,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:30:29.7138,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 32, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:30:29.7138,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 32, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:30:56.7012,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:31:05.1997,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 1 ms
+",
+2015-10-30 14:31:05.1997,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  49: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:31:05.1997,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 1 ms",
+2015-10-30 14:31:05.1997,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 0 ms
+",
+2015-10-30 14:31:05.1997,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  50: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:31:05.1997,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 0 ms",
+2015-10-30 14:31:26.6937,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:31:56.6859,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:32:26.6916,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:32:56.6983,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:33:26.6968,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:33:56.7020,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:34:26.7064,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:34:56.7098,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:35:26.7023,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:35:56.6950,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:36:26.7021,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:36:56.7087,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:37:26.7009,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:37:56.7065,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:38:26.7015,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:38:56.7045,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:39:26.6980,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:39:56.7055,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:40:26.7101,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:40:29.5443,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 32, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:40:29.5443,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 32, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:40:56.7024,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:41:26.6949,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:41:56.6873,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:42:26.6929,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:42:56.6856,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:43:26.6899,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:43:56.6834,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:44:20.8123,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 14:44:20.8123,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 14 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 1 total.
+	Timing:
+",
+2015-10-30 14:44:20.8123,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  51: GET     -    15 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:44:20.8123,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 14 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 1 total.
+	Timing:",
+2015-10-30 14:44:21.0503,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 14:44:21.0503,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'greekpartnermodels/34' was found, etag: 01000000-0000-0002-0000-00000000000A",
+2015-10-30 14:44:21.0503,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 3 ms
+	Index: Auto/GreekPartnerModels
+	Results: 1 returned out of 1 total.
+	Timing:
+",
+2015-10-30 14:44:21.0503,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  52: GET     -     4 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:44:21.0503,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 3 ms
+	Index: Auto/GreekPartnerModels
+	Results: 1 returned out of 1 total.
+	Timing:",
+2015-10-30 14:44:26.6747,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:44:56.6811,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:45:26.6879,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:45:56.6801,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:46:26.6725,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:46:39.5528,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 0 ms
+",
+2015-10-30 14:46:39.5528,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  53: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:46:39.5528,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 0 ms",
+2015-10-30 14:46:39.5608,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 0 ms
+",
+2015-10-30 14:46:39.5608,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  54: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:46:39.5608,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 0 ms",
+2015-10-30 14:46:56.6651,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:47:26.6576,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:47:49.6560,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 1 ms
+",
+2015-10-30 14:47:49.6560,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  55: GET     -     2 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:47:49.6560,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 1 ms",
+2015-10-30 14:47:49.6660,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 0 ms
+",
+2015-10-30 14:47:49.6660,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  56: GET     -     2 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:47:49.6660,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 0 ms",
+2015-10-30 14:47:56.6500,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:48:26.6406,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:48:56.6331,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:49:26.6377,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:49:47.3878,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 0 ms
+",
+2015-10-30 14:49:47.3878,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  57: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:49:47.3878,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 0 ms",
+2015-10-30 14:49:47.3948,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 0 ms
+",
+2015-10-30 14:49:47.3948,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  58: GET     -     0 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:49:47.3948,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 0 ms",
+2015-10-30 14:49:56.6424,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:50:26.6346,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:50:29.3739,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 32, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:50:29.3739,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 32, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:50:56.6281,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:51:11.0481,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 1 ms
+",
+2015-10-30 14:51:11.0481,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  59: GET     -     1 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:51:11.0481,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 1 ms",
+2015-10-30 14:51:11.0591,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 2 ms
+",
+2015-10-30 14:51:11.0591,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  60: GET     -     2 ms -            - 304 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:51:11.0591,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 2 ms",
+2015-10-30 14:51:26.6208,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:51:56.6241,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:52:26.6176,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:52:56.6110,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:53:26.6180,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:53:56.6209,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:54:26.6143,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:54:56.6067,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:55:26.5992,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:55:56.6017,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:56:26.5941,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:56:56.5867,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:57:26.5792,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:57:56.5858,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:58:26.5772,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:58:36.5563,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 14:58:36.5563,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 3 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 1 total.
+	Timing:
+",
+2015-10-30 14:58:36.5563,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  61: GET     -     3 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=0,
+2015-10-30 14:58:36.5563,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 3 ms
+	Index: Auto/GreekPartnerModels
+	Results: 0 returned out of 1 total.
+	Timing:",
+2015-10-30 14:58:36.7414,Raven.Database.Indexing.Index.Querying,Debug,<system>,Issuing query on index Auto/GreekPartnerModels for all documents,
+2015-10-30 14:58:36.7414,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'greekpartnermodels/34' was found, etag: 01000000-0000-0002-0000-00000000000A",
+2015-10-30 14:58:36.7414,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	Query: 
+	Time: 1 ms
+	Index: Auto/GreekPartnerModels
+	Results: 1 returned out of 1 total.
+	Timing:
+",
+2015-10-30 14:58:36.7414,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  62: GET     -     2 ms -            - 200 - http://localhost:8080/indexes/dynamic/GreekPartnerModels?&pageSize=128,
+2015-10-30 14:58:36.7452,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,"	Query: 
+	Time: 1 ms
+	Index: Auto/GreekPartnerModels
+	Results: 1 returned out of 1 total.
+	Timing:",
+2015-10-30 14:58:56.5687,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:59:25.1196,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	PUT GreekPartnerModels/34
+",
+2015-10-30 14:59:25.1207,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'GreekPartnerModels/34', update: True, ",
+2015-10-30 14:59:25.1207,Raven.Database.DocumentDatabase,Debug,<system>,Put document GreekPartnerModels/34 with etag 01000000-0000-0002-0000-00000000000B,
+2015-10-30 14:59:25.1207,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 33 because: PUT GreekPartnerModels/34,
+2015-10-30 14:59:25.1207,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 33, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:59:25.1207,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  63: POST    -     2 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:59:25.1207,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0002-0000-00000000000A: (GreekPartnerModels/34),
+2015-10-30 14:59:25.1207,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 14:59:25.1207,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"Going to index 1 documents in IndexId: 1, LastIndexedEtag: 01000000-0000-0002-0000-00000000000A: (GreekPartnerModels/34)",
+2015-10-30 14:59:25.1207,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Indexing 1 documents for index: Auto/GreekPartnerModels. (GreekPartnerModels/34),
+2015-10-30 14:59:25.1207,Raven.Database.Indexing.Index.Indexing,Debug,<system>,"Indexing on GreekPartnerModels/34 result in index Auto/GreekPartnerModels gave document: 	__document_id IS: greekpartnermodels/34
+",
+2015-10-30 14:59:25.1454,Raven.Database.Indexing.Index.Indexing,Debug,<system>,Indexed 1 documents for Auto/GreekPartnerModels,
+2015-10-30 14:59:25.1454,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After indexing 1 documents, the new last etag for is: 01000000-0000-0002-0000-00000000000B for Auto/GreekPartnerModels",
+2015-10-30 14:59:25.1454,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 34 because: WORK BY IndexingExecuter,
+2015-10-30 14:59:25.1454,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 34, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:59:25.1524,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 34, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:59:26.5746,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 14:59:50.7801,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Document with key 'Raven/Hilo/GreekPartnerModels' was found, etag: 01000000-0000-0002-0000-000000000006",
+2015-10-30 14:59:50.7801,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,Document with key 'Raven/ServerPrefixForHilo' was not found,
+2015-10-30 14:59:50.7801,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  64: GET     -     0 ms -            - 200 - http://localhost:8080/queries/?&id=Raven%2FHilo%2FGreekPartnerModels&id=Raven%2FServerPrefixForHilo,
+2015-10-30 14:59:50.8161,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'Raven/Hilo/GreekPartnerModels', update: True, ",
+2015-10-30 14:59:50.8231,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 35 because: PUT Raven/Hilo/GreekPartnerModels,
+2015-10-30 14:59:50.8231,Raven.Database.DocumentDatabase,Debug,<system>,Put document Raven/Hilo/GreekPartnerModels with etag 01000000-0000-0002-0000-00000000000C,
+2015-10-30 14:59:50.8231,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 35, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:59:50.8231,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  65: PUT     -     7 ms -            - 201 - http://localhost:8080/docs/Raven/Hilo/GreekPartnerModels,
+2015-10-30 14:59:50.8231,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0002-0000-00000000000B: (Raven/Hilo/GreekPartnerModels),
+2015-10-30 14:59:50.8231,Raven.Database.Impl.DocumentRetriever,Debug,,Trigger Raven.Database.Plugins.Builtins.FilterRavenInternalDocumentsReadTrigger asked us to ignore Raven/Hilo/GreekPartnerModels,
+2015-10-30 14:59:50.8231,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 14:59:50.8231,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"All documents have been filtered for Auto/GreekPartnerModels, no indexing will be performed, updating to 01000000-0000-0002-0000-00000000000C, 10/30/2015 20:59:50",
+2015-10-30 14:59:50.8321,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,<system>,"	PUT GreekPartnerModels/65
+",
+2015-10-30 14:59:50.8321,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,"Inserted a new document with key 'GreekPartnerModels/65', update: False, ",
+2015-10-30 14:59:50.8321,Raven.Database.DocumentDatabase,Debug,<system>,Put document GreekPartnerModels/65 with etag 01000000-0000-0002-0000-00000000000D,
+2015-10-30 14:59:50.8321,Raven.Database.Indexing.WorkContext,Debug,<system>,Incremented work counter to 36 because: PUT GreekPartnerModels/65,
+2015-10-30 14:59:50.8321,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,Request #  66: POST    -     5 ms -            - 200 - http://localhost:8080/bulk_docs,
+2015-10-30 14:59:50.8321,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 36, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:59:50.8321,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 37 because: WORK BY IndexingExecuter,
+2015-10-30 14:59:50.8321,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 37, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:59:50.8321,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0002-0000-00000000000C: (GreekPartnerModels/65),
+2015-10-30 14:59:50.8321,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After read triggers executed, 1 documents remained",
+2015-10-30 14:59:50.8321,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"Going to index 1 documents in IndexId: 1, LastIndexedEtag: 01000000-0000-0002-0000-00000000000C: (GreekPartnerModels/65)",
+2015-10-30 14:59:50.8321,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,Indexing 1 documents for index: Auto/GreekPartnerModels. (GreekPartnerModels/65),
+2015-10-30 14:59:50.8481,Raven.Database.Indexing.Index.Indexing,Debug,<system>,"Indexing on GreekPartnerModels/65 result in index Auto/GreekPartnerModels gave document: 	__document_id IS: greekpartnermodels/65
+",
+2015-10-30 14:59:50.8821,Raven.Database.Indexing.Index.Indexing,Debug,<system>,Indexed 1 documents for Auto/GreekPartnerModels,
+2015-10-30 14:59:50.8821,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,<system>,"After indexing 1 documents, the new last etag for is: 01000000-0000-0002-0000-00000000000D for Auto/GreekPartnerModels",
+2015-10-30 14:59:50.8821,Raven.Database.Indexing.WorkContext,Debug,,Incremented work counter to 38 because: WORK BY IndexingExecuter,
+2015-10-30 14:59:50.8821,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 38, for: IndexingExecuter, will wait for additional work",
+2015-10-30 14:59:50.8821,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 38, for: ReducingExecuter, will wait for additional work",
+2015-10-30 14:59:56.5657,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:00:26.5575,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:00:56.5506,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:01:26.5441,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:01:56.5474,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:02:26.5549,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:02:56.5485,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:03:26.5528,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:03:56.5454,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:04:26.5379,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:04:56.5294,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:05:26.5219,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:05:56.5263,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:06:26.5197,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:06:56.5122,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:07:26.5178,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:07:56.5222,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:08:26.5140,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:08:56.5058,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:09:26.4975,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:09:50.7206,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 38, for: IndexingExecuter, will wait for additional work",
+2015-10-30 15:09:50.7206,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 38, for: ReducingExecuter, will wait for additional work",
+2015-10-30 15:09:56.4900,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:10:26.4835,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:10:56.4881,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:11:26.4805,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:11:56.4881,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:12:26.4806,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:12:56.4730,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:13:26.4759,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:13:56.4789,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:14:26.4803,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:14:56.4869,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:15:26.4897,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:15:56.4817,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:16:26.4743,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:16:56.4668,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
+2015-10-30 15:17:26.4752,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,Performing Transactions Cleanup Sequence for db <system>,
