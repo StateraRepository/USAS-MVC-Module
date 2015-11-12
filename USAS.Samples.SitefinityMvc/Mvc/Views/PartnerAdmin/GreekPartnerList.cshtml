@@ -1,0 +1,79 @@
+﻿@using Kendo.Mvc.UI
+
+@{
+    ViewBag.Title = "Greek Partner Admin";
+}
+
+<style>
+    .k-edit-form-container {
+    width: 100%;
+}
+    .k-grid {
+    min-width: 340px;
+    }
+    .k-grid tbody .k-button {
+        min-width: 18px;
+        width: 22px;
+    }
+</style>
+<h2>Greek Partner Admin</h2>
+
+@(Html.Kendo().Grid<USAS.Samples.SitefinityMvc.Mvc.Models.GreekPartnerModel>()
+    .Name("grid")
+    .Columns(columns =>
+    {
+        columns.Bound(p => p.Id);
+        columns.Bound(p => p.PartnerName);
+        columns.Command(command => { command.Edit().Text(" ").UpdateText("Save").CancelText("Cancel"); command.Destroy().Text(" "); }).Width(80);
+    })
+
+    .ToolBar(toolbar => toolbar.Create().Text("Create"))
+    .Editable(editable => editable.Mode(GridEditMode.PopUp).Window(w => { w.Title("Greek Partner"); }))
+    .Pageable(pageableBuilder => { pageableBuilder.Messages(pageableMessagesBuilder => { pageableMessagesBuilder.Display("Page"); }); })
+    .Sortable()
+    .DataSource(dataSource => dataSource
+        .Ajax()
+        .PageSize(20)
+        .Events(events => { events.Error("error_handler"); })
+        .Model(model =>
+        {
+            model.Id(p => p.Id);
+        })
+        .Create(update => update.Action("CreatePartner", "PartnerAdmin"))
+        .Read(read => read.Action("ReadPartners", "PartnerAdmin"))
+        .Update(update => update.Action("UpdatePartner", "PartnerAdmin"))
+        .Destroy(update => update.Action("DeletePartner", "PartnerAdmin"))
+        )
+    )
+
+<script type="text/javascript">
+
+    function error_handler(e) {
+        if (e.errors) {
+            var message = "Errors:\n";
+            $.each(e.errors, function (key, value) {
+                if ('errors' in value) {
+                    $.each(value.errors, function () {
+                        message += this + "\n";
+                    });
+                }
+            });
+            alert(message);
+        }
+    }
+</script>
+
+<script>
+    $('#helpLink').click(function (e) {
+        var userName = $(this).val();
+        e.stopPropagation();
+        $.ajax({
+            type: "GET",
+            url: "/ajax/partner-detail/helpdetails",
+            datatype: "html",
+            success: function (data) {
+                $('#helpDetails').html(data);
+            }
+        });
+    });
+</script>

@@ -1,0 +1,43 @@
+﻿@using System.Web.Mvc;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.UI.MVC;
+@using Telerik.Sitefinity.Services;
+@using System.Web.Optimization;
+
+<!DOCTYPE html>
+<html @Html.RenderLangAttribute()>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - USAS MVC Prototype</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    @Html.Section("head")
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/kendo/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/kendo")
+
+
+    <script src="@Url.Content("~/Scripts/kendo/2015.2.902/jszip.min.js")"></script>
+</head>
+<body>
+    @Html.Section("top")
+    <header>
+        @Html.SfPlaceHolder("HeaderSection")
+    </header>
+    <div id="body">
+        @Html.SfPlaceHolder("featured")
+        <section class="content-wrapper main-content clear-fix">
+            @Html.SfPlaceHolder("MainSection")
+        </section>
+    </div>
+    <footer>
+        @Html.SfPlaceHolder("FooterSection")
+    </footer>
+
+    @Html.Section("bottom")
+    @Html.Section("scripts")
+</body>
+</html>

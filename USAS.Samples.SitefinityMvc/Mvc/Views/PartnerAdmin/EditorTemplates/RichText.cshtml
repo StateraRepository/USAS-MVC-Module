@@ -1,0 +1,7 @@
+﻿@model string 
+@using Kendo.Mvc.UI
+
+@(Html.Kendo().EditorFor(model => model)
+    .HtmlAttributes(new { style = "height: 200px" })
+    .Encode(true)
+    )
