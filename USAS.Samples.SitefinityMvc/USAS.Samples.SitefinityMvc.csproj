@@ -111,23 +111,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Mvc\Views\PartnerAdmin\GreekPartnerList.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\Currency.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\Date.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\DateTime.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\Email.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\EmailAddress.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\GreekPartnerModel.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\GreekPartnerRegionModel.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\GridForeignKey.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\Integer.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\Number.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\Password.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\ReadOnlyInt.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\ReadOnlyString.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\RichText.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\String.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\Time.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\PartnerAdmin\EditorTemplates\Url.cshtml" />
     <None Include="app.config" />
     <Content Include="Mvc\Views\Web.config" />
     <None Include="packages.config" />
@@ -138,9 +121,7 @@
       <Name>USAS.Samples.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Mvc\Views\Shared\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

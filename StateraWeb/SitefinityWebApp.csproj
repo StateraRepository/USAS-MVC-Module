@@ -513,7 +513,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Mvc\Views\PartnerAdmin\EditorTemplates\GreekPartnerModel.cshtml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
@@ -866,8 +865,6 @@
     <Content Include="wlwmanifest.xml" />
     <Content Include="Mvc\Controllers\readme.txt" />
     <Content Include="Mvc\Models\readme.txt" />
-    <Content Include="Mvc\Views\readme.txt" />
-    <Content Include="Mvc\Views\Shared\readme.txt" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <Content Include="Scripts\kendo\2015.2.902\jquery.min.map" />
     <Content Include="Scripts\kendo\2015.2.902\kendo.all.min.js.map" />
@@ -987,6 +984,8 @@
     <Content Include="Scripts\kendo\2015.2.902\kendo.virtuallist.min.js.map" />
     <Content Include="Scripts\kendo\2015.2.902\kendo.web.min.js.map" />
     <Content Include="Scripts\kendo\2015.2.902\kendo.window.min.js.map" />
+    <Content Include="Views\Shared\EditorTemplates\GreekPartnerModel.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\RichText.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
@@ -995,7 +994,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\Sitefinity\" />
-    <Folder Include="ResourcePackages\Statera\MVC\Views\Shared\" />
+    <Folder Include="Mvc\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App_Data\GeoLocation\GeoLiteCity.dat" />

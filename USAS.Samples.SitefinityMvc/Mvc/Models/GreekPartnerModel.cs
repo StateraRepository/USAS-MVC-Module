@@ -19,7 +19,7 @@ namespace USAS.Samples.SitefinityMvc.Mvc.Models
 
         [Required(ErrorMessage = "User Signup Pledge is required")]
         [Display(Name = "User Signup Pledge")]
-        [System.ComponentModel.DataAnnotations.UIHint("RichText")]
+        [UIHint("RichText")]
         public string UserSignupPledge { get; set; }
 
     }
